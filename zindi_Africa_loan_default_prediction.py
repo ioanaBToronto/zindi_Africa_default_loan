@@ -28,8 +28,14 @@ train_df.tail()
 
 train_df.info()
 
+ #Check for missing values
+print('missing values:', train_df.isnull().sum())
+
 test_df.shape
 
 test_df.head()
 
 test_df.info()
+
+ #Check for missing values
+print('missing values:', test_df.isnull().sum())
