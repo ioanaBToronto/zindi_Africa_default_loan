@@ -13,9 +13,9 @@ import numpy as np
 # Load the training and test datasets from GitHub
 #train_df = pd.read_csv('https://raw.githubusercontent.com/ajvilleg/teach-zindi-loan-default-prediction-challenge/refs/heads/main/raw/trainperf.csv')
 #test_df = pd.read_csv('https://raw.githubusercontent.com/ajvilleg/teach-zindi-loan-default-prediction-challenge/refs/heads/main/raw/testperf.csv')
-
-train_df = pd.read_csv('https://github.com/ioanaBToronto/zindi_Africa_default_loan/blob/main/raw/trainperf.csv')
-test_df = pd.read_csv('https://github.com/ioanaBToronto/zindi_Africa_default_loan/blob/main/raw/testperf.csv')
+                        
+train_df = pd.read_csv('https://raw.githubusercontent.com/ioanaBToronto/zindi_Africa_default_loan/refs/heads/main/raw/trainperf.csv')
+test_df = pd.read_csv('https://raw.githubusercontent.com/ioanaBToronto/zindi_Africa_default_loan/refs/heads/main/raw/testperf.csv')
 
 
 train_df.shape
